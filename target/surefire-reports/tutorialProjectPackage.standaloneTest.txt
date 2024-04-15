@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: tutorialProjectPackage.standaloneTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 4, Errors: 0, Skipped: 3, Time elapsed: 0.944 s <<< FAILURE! - in tutorialProjectPackage.standaloneTest
+browserlaunch(tutorialProjectPackage.standaloneTest)  Time elapsed: 0.783 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+
+closebrowser(tutorialProjectPackage.standaloneTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+
+browserlaunch(tutorialProjectPackage.standaloneTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+
+closebrowser(tutorialProjectPackage.standaloneTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+
